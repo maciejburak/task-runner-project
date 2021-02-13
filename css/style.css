@@ -11,7 +11,7 @@ body {
 .section-title {
   margin: auto;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -89,11 +89,7 @@ body {
       flex-direction: row;
 }
 
-.content {
-  -ms-flex-preferred-size: 33%;
-      flex-basis: 33%;
-  padding: 30px;
-}
+
 
 .content p, .content h3 {
   text-align: center;
@@ -130,7 +126,7 @@ body {
 }
 
 .card {
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   opacity: 1;
   transition: all 1s;
 }
@@ -193,12 +189,6 @@ footer li i {
 
 /*MEDIA*/
 @media (max-width: 415px) {
-  .content {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    -ms-flex-pack: center;
-        justify-content: center;
-  }
   .row {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -217,12 +207,4 @@ footer li i {
   }
 }
 
-@media (max-width: 736px) {
-  .content {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    -ms-flex-pack: center;
-        justify-content: center;
-  }
-}
 /*# sourceMappingURL=style.css.map */
